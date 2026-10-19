@@ -5,3 +5,4 @@ screenshots/*
 !screenshots/README.md
 *.zip
 .DS_Store
+.env.example
