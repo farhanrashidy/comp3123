@@ -44,11 +44,3 @@ The payload is readable by anyone, so never put secrets in it. This demo is for 
 | GET | `/api/profile` | any valid token |
 | GET | `/api/admin` | token with role `admin` |
 
-## Project structure
-
-```
-server/index.js          Express API and JWT checks
-client/src/store/        actions, reducer, store
-client/src/components/   LoginForm, TokenPanel, ApiPanel, ReduxInspector
-client/src/utils/jwt.js  token decoding helpers
-```
