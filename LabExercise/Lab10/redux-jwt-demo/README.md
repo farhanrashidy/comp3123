@@ -1,4 +1,4 @@
-# Gatekeeper: Redux + JWT demo
+# COMP 3123 - Week 12 - Lab Exercise 10 - Redux + JWT demo
 
 A small app that shows how **React Redux** and **JWT (JSON Web Token)** work together.
 You log in, the server gives you a signed token (a "pass"), and the app uses it to open protected routes (the "gates").
